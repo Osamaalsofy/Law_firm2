@@ -1,4 +1,5 @@
 import React from 'react';
+import consultationMeetingRoomImage from '../assets/images/consultation_meeting_room_1791295404708.jpg';
 import { VALUES_PILLARS } from '../data/firmData';
 import { Eye, Shield, Compass, CheckCircle } from 'lucide-react';
 
@@ -48,7 +49,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ currentLang }) => {
             <div className="relative rounded-2xl overflow-hidden border border-[#E8DEC8] shadow-md group bg-white p-2">
               <div className="relative rounded-xl overflow-hidden aspect-[4/3] sm:aspect-auto sm:h-[400px]">
                 <img
-                  src="/src/assets/images/consultation_meeting_room_1791295404708.jpg"
+                  src={consultationMeetingRoomImage}
                   alt={isAr ? 'غرفة الاستشارات والاجتماعات القانونية' : 'Consultation Room'}
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"

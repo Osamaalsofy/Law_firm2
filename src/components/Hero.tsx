@@ -1,4 +1,5 @@
 import React from 'react';
+import saudiHeroImage from '../assets/images/saudi_hero_cinematic_1791299400406.jpg';
 import { 
   ShieldCheck, 
   ArrowLeft, 
@@ -22,7 +23,7 @@ export const Hero: React.FC<HeroProps> = ({ currentLang, onOpenConsultation }) =
       {/* Cinematic Saudi Cultural Background Image (Clearer Opacity & High Definition) */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/src/assets/images/saudi_hero_cinematic_1791299400406.jpg"
+          src={saudiHeroImage}
           alt={isAr ? 'خلفية معمارية وثقافية سعودية مهيبة' : 'Cinematic Saudi Cultural Architecture'}
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center filter brightness-[0.98] contrast-[1.05] opacity-95 transition-all duration-700"
