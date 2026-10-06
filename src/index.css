@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Cairo', 'Tajawal', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #FAF8F5;
+    color: #1A2421;
+  }
+}
+
+.font-serif-ar {
+  font-family: 'Amiri', serif;
+}
+
+.font-display-ar {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-body-ar {
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* Subtle Saudi Architectural Pattern Overlay on Bright Sand/Ivory */
+.bg-saudi-pattern {
+  background-image: radial-gradient(rgba(18, 61, 50, 0.05) 1px, transparent 1px),
+    radial-gradient(rgba(183, 146, 85, 0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+/* Green & Brass Gradient Text */
+.saudi-gradient-text {
+  background: linear-gradient(135deg, #123D32 0%, #0B2923 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brass-gradient-text {
+  background: linear-gradient(135deg, #B79255 0%, #957338 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D1C5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #123D32;
+}

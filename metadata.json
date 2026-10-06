@@ -1,0 +1,6 @@
+{
+  "name": "شركة بصيرة ومنعة للمحاماة والخدمات القانونية",
+  "description": "الموقع الرسمي لشركة بصيرة ومنعة للمحاماة والخدمات القانونية بجدة - استشارات قانونية، قضايا الشركات والتجارة، الترافع وصياغة العقود",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
